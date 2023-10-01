@@ -5,6 +5,14 @@
 */
 
 void main(List<String> arguments) {
+// soal 1 hitung luas lingkaran
+
+  double phi = 3.14;
+  double r = 7;
+  double hit = phi * r * r;
+
+  print("Hasil Hitung Luas Lingkaran : $hit");
+
 // Soal 2 variable isi string
 
   String a = "Saya ", b = "Baru ", c = "Memulai Belajar Pemrograman Mobile";
