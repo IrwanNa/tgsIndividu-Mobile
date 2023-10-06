@@ -49,16 +49,17 @@ void main() {
   Mobil m = Mobil(700);
 
   // Lalu tambahkan muatan hewan ke dalam class mobil tadi
-
-  m.tambahMuatan(Hewan('Sapi', 500));
+  m.tambahMuatan(Hewan('Sapi', 400));
   m.tambahMuatan(Hewan('Kerbau', 400));
 
   // Setelah itu kondidikan total muatan
 
   int tBeratMuatan = m.totalMuatan();
+
   if (tBeratMuatan <= m.kapasitas) {
     print('Total berat muatan mobil: $tBeratMuatan kg');
   } else {
-    print('Berat muatan melebihi kapasitas maksimal mobil !!!');
+    print(
+        'Berat muatan melebihi kapasitas maksimal mobil, coba kurangi muatan!!!');
   }
 }
