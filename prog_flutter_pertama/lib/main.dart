@@ -37,6 +37,49 @@ class DetailScreen extends StatelessWidget {
                 ),
               ),
             ),
+            Container(
+              margin: const EdgeInsets.symmetric(vertical: 15.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
+                  Column(
+                    children: const <Widget>[
+                      Icon(Icons.calendar_today),
+                      SizedBox(
+                        height: 0.0,
+                      ),
+                      Text('open everyday')
+                    ],
+                  ),
+                  Column(
+                    children: const <Widget>[
+                      Icon(Icons.access_time),
+                      SizedBox(
+                        height: 0.0,
+                      ),
+                      Text('09.00 - 20.00')
+                    ],
+                  ),
+                  Column(
+                    children: const <Widget>[
+                      Icon(Icons.monetization_on),
+                      SizedBox(
+                        height: 0.0,
+                      ),
+                      Text('Rp.25.000')
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              padding: const EdgeInsets.all(16),
+              child: const Text(
+                'Berada di jalur utama jalan raya Bandung, Farm House menjadi objek wisata yang tidak pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga menghadirkan suasana wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto instagramable.',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 16.0),
+              ),
+            ),
           ],
         ),
       ),
