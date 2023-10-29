@@ -105,6 +105,35 @@ class DetailScreen extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(
+              height: 150,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.asset('images/kawah-putih.jpg'),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.asset('images/taman-film.jpg'),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.asset('images/farm-house.jpg'),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
